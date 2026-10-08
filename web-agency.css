@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+header {
+    min-height: 100vh;
+    background-color: #24437c;
+    padding: 25px 5%;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-brand {
+    width: 70px;
+}
+
+.nav-primary {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 7px;
+}
+
+.nav-item a:hover {
+    color: #3dc1ef;
+}
+
+.cta-btn {
+    background-color: #3dc1ef;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 4px;
+}
+
+.cta-btn a {
+    color: white;
+}
+
+.header-title {
+    margin: 75px 0 5px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+
+.header-subtitle {
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    color: #3dc1ef;
+}
+
+#button-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.header-btn {
+    display: inline-block;
+    color: white;
+    font-size: 7px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-services {
+    display: flex;
+    justify-content: center;
+    margin: 70px auto 0;
+    padding: 0;
+    list-style: none;
+    max-width: 720px;
+}
+
+.service {
+    width: 33.33%;
+    padding: 25px 30px;
+}
+
+.service:hover {
+    background-color: #3dc1ef;
+}
+
+.service-title {
+    margin: 0 0 15px;
+    font-size: 11px;
+    line-height: 1.2;
+    color: white;
+}
+
+.service-intro {
+    margin: 0;
+    font-size: 6px;
+    line-height: 1.4;
+    color: white;
+}
+
+.service-link {
+    display: block;
+    margin-top: 8px;
+    color: white;
+    font-size: 6px;
+    text-decoration: none;
+}
+
+.service-link:hover {
+    text-decoration: underline;
+}
